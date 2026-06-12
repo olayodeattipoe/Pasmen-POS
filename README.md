@@ -61,14 +61,14 @@ Watch the full system breakdown and demo on YouTube:
 ### 🧾 Hardware Integration: Thermal Printing & Dual-Receipt Flow
 The system natively supports thermal receipt printing at checkout. It automatically generates a kitchen ticket and a customer copy for order verification.
 
-<a href="https://www.youtube.com/watch?v=IBhFM26pGS8&t=1770s"><img src="./screenshots/receipt_printing_demo.png" width="400" alt="Receipt Printing Demo" /></a>
+<a href="https://youtube.com/shorts/yDWNPuB6nlo"><img src="./screenshots/receipt_printing_demo.png" width="400" alt="Receipt Printing Demo" /></a>
 
 *Click the image above to watch it in action.*
 
 ### 🎥 System in Action (Production Demo)
 The POS system actively being used in a real restaurant workflow:
 
-<a href="https://www.youtube.com/watch?v=IBhFM26pGS8&t=1560s"><img src="./screenshots/real_world_demo.png" width="400" alt="POS in a real restaurant" /></a>
+<a href="https://youtube.com/shorts/6FUaBvKSEJU"><img src="./screenshots/real_world_demo.png" width="400" alt="POS in a real restaurant" /></a>
 
 *Click the image above to watch it in action.*
 
