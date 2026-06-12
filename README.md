@@ -26,7 +26,9 @@ To improve accountability and workflow, the system enforces a strict **Dual-Rece
 ## 🎥 Full System Walkthrough & Demos
 
 ### Video Walkthrough
-Watch the full system breakdown and demo on YouTube: **https://www.youtube.com/watch?v=IBhFM26pGS8**
+Watch the full system breakdown and demo on YouTube:
+
+[![Watch the full walkthrough](https://img.youtube.com/vi/IBhFM26pGS8/maxresdefault.jpg)](https://www.youtube.com/watch?v=IBhFM26pGS8)
 
 **Timestamps:**
 - 0:00 Introduction
@@ -56,25 +58,17 @@ Watch the full system breakdown and demo on YouTube: **https://www.youtube.com/w
 - 38:30 Mobile responsiveness
 - 38:54 Wrap-up
 
-
 ### 🧾 Hardware Integration: Thermal Printing & Dual-Receipt Flow
-The system natively supports thermal receipt printing at checkout. It automatically generates a kitchen ticket and a customer copy for order verification.
-*(See the receipt printing in action below)*
+The system natively supports thermal receipt printing at checkout. It automatically generates a kitchen ticket and a customer copy for order verification. Click below to see it in action (timestamped to the relevant section):
 
+[![Receipt Printing Demo](https://img.youtube.com/vi/IBhFM26pGS8/hqdefault.jpg)](https://www.youtube.com/watch?v=IBhFM26pGS8&t=1770s)
 
-![Receipt Printing Demo](./screenshots/receipt_printing_demo.mp4)
+### 🎥 System in Action (Production Demo)
+This shows the POS system actively being used in a real restaurant workflow:
 
-## 🎥 System in Action (Production Demos)
+[![POS in a real restaurant](https://img.youtube.com/vi/IBhFM26pGS8/hqdefault.jpg)](https://www.youtube.com/watch?v=IBhFM26pGS8&t=1560s)
 
-This video shows the POS system actively being used in a real restaurant workflow.
-
-Below is  real-world recordings of the system being used in a live restaurant environment.
-
-<video width="400" controls>
-  <source src="./screenshots/real_world_demo.mp4" type="video/mp4">
-</video>
 ---
-
 
 ## ✨ Key Features
 
@@ -101,32 +95,32 @@ We containerized the entire stack using Docker and Docker Compose.
 ```mermaid
 graph TD
     %% Clients
-    OrderApp[Cashier POS<br/>React + TS + shadcn/ui<br/>Port 82]
-    InventoryApp[Inventory Manager App<br/>React + TS + Tailwind<br/>Port 81/84]
-    AdminDashboard[POS Admin Panel<br/>React + TS<br/>Port 83]
-    
+    OrderApp["Cashier POS<br/>React + TS + shadcn/ui<br/>Port 82"]
+    InventoryApp["Inventory Manager App<br/>React + TS + Tailwind<br/>Port 81/84"]
+    AdminDashboard["POS Admin Panel<br/>React + TS<br/>Port 83"]
+
     %% API Gateway / Nginx
-    Nginx[Nginx Reverse Proxy / Load Balancer]
-    
+    Nginx["Nginx Reverse Proxy / Load Balancer"]
+
     %% Backend Services
-    subgraph Backend Services
-        Django[Django REST API / Gunicorn]
-        Redis[(Redis Cache & Broker)]
-        Celery[Celery Task Worker]
-        CeleryBeat[Celery Beat Scheduler]
-        Postgres[(PostgreSQL DB)]
+    subgraph "Backend Services"
+        Django["Django REST API / Gunicorn"]
+        Redis[("Redis Cache & Broker")]
+        Celery["Celery Task Worker"]
+        CeleryBeat["Celery Beat Scheduler"]
+        Postgres[("PostgreSQL DB")]
     end
-    
+
     %% External Nodes & APIs
-    Twilio[Twilio WhatsApp API]
-    OtherBranches[Other Branch APIs<br/>via Ngrok/Nginx]
+    Twilio["Twilio WhatsApp API"]
+    OtherBranches["Other Branch APIs<br/>via Ngrok/Nginx"]
 
     %% Data Flow Connections
     OrderApp --> Nginx
     InventoryApp --> Nginx
     AdminDashboard --> Nginx
     Nginx -->|Routes API Requests| Django
-    
+
     Django --> Postgres
     Django -->|Enqueues Tasks| Redis
     Django -.->|Disbursement Update| Nginx
