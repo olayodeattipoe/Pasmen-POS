@@ -4,7 +4,7 @@ A production-ready POS and inventory management system built for commercial kitc
 
 ---
 
-## 🛑 The Problem
+## The Problem
 
 Commercial kitchens and multi-branch restaurants often struggle with:
 1. **Blind spots in inventory:** Relying on manual end-of-day counts instead of real-time tracking, leading to unexpected stockouts.
@@ -23,7 +23,7 @@ To improve accountability and workflow, the system enforces a strict **Dual-Rece
 
 ---
 
-## 🎥 Full System Walkthrough & Demos
+## Full System Walkthrough & Demos
 
 ### Video Walkthrough
 Watch the full system breakdown and demo on YouTube:
@@ -58,14 +58,14 @@ Watch the full system breakdown and demo on YouTube:
 - [38:30](https://www.youtube.com/watch?v=IBhFM26pGS8&t=2310s) Mobile responsiveness
 - [38:54](https://www.youtube.com/watch?v=IBhFM26pGS8&t=2334s) Wrap-up
 
-### 🧾 Hardware Integration: Thermal Printing & Dual-Receipt Flow
+### Hardware Integration: Thermal Printing & Dual-Receipt Flow
 The system natively supports thermal receipt printing at checkout. It automatically generates a kitchen ticket and a customer copy for order verification.
 
 <a href="https://youtube.com/shorts/yDWNPuB6nlo"><img src="./screenshots/receipt_printing_demo.png" width="400" alt="Receipt Printing Demo" /></a>
 
 *Click the image above to watch it in action.*
 
-### 🎥 System in Action (Production Demo)
+### System in Action (Production Demo)
 The POS system actively being used in a real restaurant workflow:
 
 <a href="https://youtube.com/shorts/6FUaBvKSEJU"><img src="./screenshots/real_world_demo.png" width="400" alt="POS in a real restaurant" /></a>
@@ -74,25 +74,25 @@ The POS system actively being used in a real restaurant workflow:
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 🏢 Architecture & Multi-Tenancy
+###  Architecture & Multi-Tenancy
 - **Specialized Micro-Frontends**: Separate React/Vite applications tailored for specific user roles (Cashier POS, Inventory Managers, System Admins). *(Note: The mobile waiter app has been deprecated in favor of the more reliable dual-receipt cashier flow).*
 - **Comprehensive Audit Logging**: Custom Django middleware intercepts and logs every state-mutating API call (`POST`/`PATCH`/`DELETE`), tracking the user ID, endpoint, IP address, and payload. This provides management with a tamper-proof ledger to enforce accountability.
 
-### 🍳 Kitchen Inventory
+### Kitchen Inventory
 - **Batch Recipe Deduction**: When kitchen staff logs a cooked batch, the system dynamically calculates raw ingredient usage based on predefined recipes and deducts it from the main store.
 - **Production Reversal (Undo)**: Reversing a batch log automatically recalculates and restores the exact quantities of raw ingredients back into the inventory.
 - **Cross-Branch Disbursements via Nginx/Ngrok**: Built-in logic to handle the transfer of raw materials between branches. When a disbursement is initiated, the backend dispatches a request that routes through the Nginx/Ngrok network to hit the receiving branch's inventory update endpoint, keeping stock levels synced across locations.
 
-### 🤖 Background Jobs & Notifications
+###  Background Jobs & Notifications
 - **Smart WhatsApp Alerts**: A Celery Beat cron job checks stock levels every 15 minutes. It aggregates low-stock and out-of-stock items and sends a single WhatsApp alert via the **Twilio API**.
 - **Global Alert Cooldowns**: A buffer system prevents notification spam during rapid stock fluctuations or system restarts.
 - **Nightly Revenue Summaries**: Automated end-of-day reports detailing total revenue, order counts, and critical stock warnings sent directly to management.
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 
 We containerized the entire stack using Docker and Docker Compose.
 
@@ -137,7 +137,7 @@ graph TD
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 **Backend**
 - Python, Django 5, Django REST Framework (DRF)
@@ -159,7 +159,7 @@ graph TD
 
 ---
 
-## 🔄 Core Workflows
+## Core Workflows
 
 ### 1. Dual-Receipt Order Pipeline
 *`Ring Up → Print → Prep → Verify`*
@@ -184,7 +184,7 @@ graph TD
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Docker and Docker Compose installed
@@ -230,7 +230,7 @@ docker compose exec web python manage.py createsuperuser
 
 ---
 
-## 🧠 Technical Highlights
+##  Technical Highlights
 
 - **Polymorphic Data Modeling**: Handles the complexity of linking Sales and Adjustments to either standalone `Products`, `Customizables`, or `RawItems` using Django `UniqueConstraints` and custom `clean()` validation methods.
 - **Defensive Task Queuing**: The Celery implementation uses global cooldowns and strict timestamp tracking (`last_whatsapp_sent_at`) to ensure network failures or rapid worker restarts never result in duplicate WhatsApp messages.
@@ -239,7 +239,7 @@ docker compose exec web python manage.py createsuperuser
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 1. **WebSockets for Kitchen Displays**: Migrate the order queue from a polling architecture to real-time Server-Sent Events (SSE) or Django Channels (WebSockets) for instant Kitchen Display System (KDS) updates.
 2. **Schema-Based Multi-Tenancy**: Transition from logical branch separation to PostgreSQL schema-based multi-tenancy (using `django-tenant-schemas`) to support true SaaS-level scalability.
