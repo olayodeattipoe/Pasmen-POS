@@ -1,0 +1,192 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Kitchen Order Station - Premium Dark Glassmorphism Design System */
+
+@layer base {
+  :root {
+    /* Force dark mode only - these are placeholders */
+    --background: 222 47% 6%;
+    --foreground: 210 40% 98%;
+  }
+
+  /* Dark mode is the only mode */
+  .dark,
+  :root {
+    /* Deep rich background */
+    --background: 222 47% 6%;
+    --foreground: 210 40% 98%;
+
+    /* Glass card surfaces */
+    --card: 220 40% 12%;
+    --card-foreground: 210 40% 98%;
+
+    /* Glass popover */
+    --popover: 220 40% 10%;
+    --popover-foreground: 210 40% 98%;
+
+    /* Premium accent - warm amber/gold */
+    --primary: 38 92% 50%;
+    --primary-foreground: 222 47% 6%;
+
+    /* Secondary - subtle glass */
+    --secondary: 220 30% 18%;
+    --secondary-foreground: 210 40% 98%;
+
+    /* Muted elements */
+    --muted: 220 25% 14%;
+    --muted-foreground: 215 20% 55%;
+
+    /* Accent - cyan glow */
+    --accent: 190 90% 50%;
+    --accent-foreground: 222 47% 6%;
+
+    /* Status colors */
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 210 40% 98%;
+
+    --success: 142 76% 45%;
+    --success-foreground: 210 40% 98%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 222 47% 6%;
+
+    --pending: 280 80% 60%;
+    --pending-foreground: 210 40% 98%;
+
+    /* Borders and inputs */
+    --border: 220 30% 20%;
+    --input: 220 30% 15%;
+    --ring: 38 92% 50%;
+
+    --radius: 1rem;
+
+    /* Sidebar */
+    --sidebar-background: 220 40% 8%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 38 92% 50%;
+    --sidebar-primary-foreground: 222 47% 6%;
+    --sidebar-accent: 220 30% 15%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 220 30% 18%;
+    --sidebar-ring: 38 92% 50%;
+
+    /* Glass effects */
+    --glass-bg: 220 40% 12% / 0.6;
+    --glass-border: 220 30% 30% / 0.3;
+    --glass-highlight: 210 40% 98% / 0.05;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Bricolage Grotesque', sans-serif;
+  }
+}
+
+/* Glass card utilities */
+@layer components {
+  .glass-card {
+    @apply relative overflow-hidden rounded-2xl;
+    background: hsl(var(--glass-bg));
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid hsl(var(--glass-border));
+  }
+
+  .glass-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      135deg,
+      hsl(var(--glass-highlight)) 0%,
+      transparent 50%
+    );
+    pointer-events: none;
+  }
+
+  .glass-surface {
+    background: hsl(var(--glass-bg));
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+
+  .status-badge {
+    @apply inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider;
+  }
+
+  .status-new {
+    background: hsl(38 92% 50% / 0.2);
+    color: hsl(38 92% 60%);
+    border: 1px solid hsl(38 92% 50% / 0.3);
+  }
+
+  .status-preparing {
+    background: hsl(190 90% 50% / 0.2);
+    color: hsl(190 90% 60%);
+    border: 1px solid hsl(190 90% 50% / 0.3);
+  }
+
+  .status-ready {
+    background: hsl(142 76% 45% / 0.2);
+    color: hsl(142 76% 55%);
+    border: 1px solid hsl(142 76% 45% / 0.3);
+  }
+
+  .glow-accent {
+    box-shadow: 0 0 30px hsl(38 92% 50% / 0.15);
+  }
+
+  .glow-success {
+    box-shadow: 0 0 30px hsl(142 76% 45% / 0.2);
+  }
+}
+
+/* Custom scrollbar */
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .swipe-hint {
+    animation: swipeHint 2s ease-in-out infinite;
+  }
+
+  @keyframes swipeHint {
+    0%, 100% {
+      transform: translateX(0);
+      opacity: 0.5;
+    }
+    50% {
+      transform: translateX(8px);
+      opacity: 1;
+    }
+  }
+
+  .pulse-glow {
+    animation: pulseGlow 2s ease-in-out infinite;
+  }
+
+  @keyframes pulseGlow {
+    0%, 100% {
+      box-shadow: 0 0 20px hsl(38 92% 50% / 0.2);
+    }
+    50% {
+      box-shadow: 0 0 40px hsl(38 92% 50% / 0.4);
+    }
+  }
+}

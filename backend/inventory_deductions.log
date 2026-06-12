@@ -1,0 +1,552 @@
+2025-10-10 11:01:18,420 - INFO - Created Sale ID: 5 | Amount: 100.00
+2025-10-10 11:01:18,422 - INFO - Product Sold: Waakye Jumbo | Qty: 4 | Price: 10.0
+2025-10-10 11:01:18,423 - INFO - → Deducted 6.00 of Cindy Rice (raw) for Waakye Jumbo. Remaining: 6946.00
+2025-10-10 11:01:18,424 - INFO - → Deducted 8.00 of Raw Eggs (raw) for Waakye Jumbo. Remaining: 1093.00
+2025-10-10 11:01:18,425 - INFO - Customization Sold: Egg | Qty: 5
+2025-10-10 11:01:18,425 - INFO - → Deducted 5.00 of Raw Eggs (raw) for Egg. Remaining: 1088.00
+2025-10-10 11:01:18,426 - INFO - Customization Sold: Plantain | Qty: 1
+2025-10-10 11:01:18,427 - INFO - → Deducted 0.30 of Oil (raw) for Plantain. Remaining: 5181.70
+2025-10-10 11:01:18,427 - INFO - Product Sold: Waakye | Qty: 1 | Price: 15.0
+2025-10-10 11:01:18,428 - INFO - → Deducted 0.50 of Oil (raw) for Waakye. Remaining: 5180.50
+2025-10-10 11:01:18,429 - INFO - → Deducted 1.00 of Cindy Rice (raw) for Waakye. Remaining: 6945.00
+2025-10-10 11:01:18,429 - INFO - → Deducted 2.00 of Raw Eggs (raw) for Waakye. Remaining: 1086.00
+2025-10-10 11:01:18,429 - INFO - ✅ Sale processed successfully and inventory updated.
+2026-01-27 23:42:20,171 - INFO - Starting inventory deduction for Sale ID: 13
+2026-01-27 23:42:20,177 - INFO - Processing Customization: Macaroni | Qty: 2
+2026-01-27 23:42:20,184 - INFO - → Deducted 6.00 of Raw Fish (raw) for Macaroni. Remaining: 194
+2026-01-27 23:42:20,184 - INFO - Processing Product: Waakye Customizable | Qty: 2
+2026-01-27 23:42:20,184 - INFO - → Deducted 14.00 from Waakye Customizable self stock. Remaining: 786.00
+2026-01-27 23:42:20,187 - INFO - → Deducted 2.00 of Raw Eggs (raw) for Waakye Customizable. Remaining: 79998
+2026-01-27 23:42:20,187 - INFO - → Deducted 5.00 of Raw Rice (raw) for Waakye Customizable. Remaining: 2995
+2026-01-27 23:42:20,187 - INFO - ✅ Inventory deduction completed for Sale ID: 13
+2026-01-27 23:42:20,189 - INFO - Order 13 marked as completed successfully
+2026-01-28 00:14:19,853 - INFO - Starting inventory deduction for Sale ID: 1
+2026-01-28 00:14:19,859 - INFO - Processing Customization: Egg | Qty: 3
+2026-01-28 00:14:19,860 - INFO - Processing Customization: Spaghetti | Qty: 3
+2026-01-28 00:14:19,861 - INFO - Processing Product: Waakye Customizable | Qty: 3
+2026-01-28 00:14:19,861 - INFO - ✅ Inventory deduction completed for Sale ID: 1
+2026-01-28 00:14:19,862 - INFO - Order 1 marked as completed successfully
+2026-01-28 00:51:48,216 - INFO - Starting inventory deduction for Sale ID: 2
+2026-01-28 00:51:48,221 - INFO - Processing Customization: Egg | Qty: 6
+2026-01-28 00:51:48,223 - INFO - → Deducted 6.00 of Raw Eggs (raw) for Egg. Remaining: 594
+2026-01-28 00:51:48,223 - INFO - Processing Customization: Spaghetti | Qty: 11
+2026-01-28 00:51:48,224 - INFO - → Deducted 110.00 of Raw Spagghetti (raw) for Spaghetti. Remaining: 40
+2026-01-28 00:51:48,225 - INFO - Processing Product: Waakye Customizable | Qty: 3
+2026-01-28 00:51:48,226 - INFO - → Deducted 60.00 of Raw Rice (raw) for Waakye Customizable. Remaining: 499940
+2026-01-28 00:51:48,226 - INFO - ✅ Inventory deduction completed for Sale ID: 2
+2026-01-28 00:51:48,227 - INFO - Order 2 marked as completed successfully
+2026-01-29 00:20:32,105 - INFO - Starting inventory deduction for Sale ID: 13
+2026-01-29 00:20:32,108 - INFO - Processing Customization: Egg | Qty: 7
+2026-01-29 00:20:32,111 - INFO - → Deducting 7.00 of Raw Eggs (raw) for Egg.
+2026-01-29 00:20:32,112 - INFO - Processing Customization: Spaghetti | Qty: 10
+2026-01-29 00:20:32,113 - ERROR - Error processing order completion for Sale ID 13: new row for relation "inventory_rawitems" violates check constraint "inventory_rawitems_quantity_in_stock_check"
+DETAIL:  Failing row contains (3, Raw Spagghetti, GRAMS, VOLUME, Lets Count Spaghetti, -60, 5.00, 10).
+
+2026-01-29 00:30:45,678 - INFO - Starting inventory deduction for Sale ID: 14
+2026-01-29 00:30:45,683 - INFO - Processing Customization: Egg | Qty: 7
+2026-01-29 00:30:45,685 - INFO - → Deducting 7.00 of Raw Eggs (raw) for Egg.
+2026-01-29 00:30:45,685 - INFO - Processing Customization: Spaghetti | Qty: 10
+2026-01-29 00:30:45,686 - INFO - → Deducting 100.00 of Raw Spagghetti (raw) for Spaghetti.
+2026-01-29 00:30:45,686 - INFO - Processing Product: Waakye Customizable | Qty: 25
+2026-01-29 00:30:45,687 - INFO - → Deducting 500.00 of Raw Rice (raw) for Waakye Customizable.
+2026-01-29 00:30:45,687 - INFO - ✅ Inventory deduction completed for Sale ID: 14
+2026-01-29 00:30:45,688 - INFO - Order 14 marked as completed successfully
+2026-01-29 00:34:22,175 - INFO - Starting inventory deduction for Sale ID: 15
+2026-01-29 00:34:22,180 - INFO - Processing Customization: Spaghetti | Qty: 10
+2026-01-29 00:34:22,183 - INFO - → Deducting 100.00 of Raw Spagghetti (raw) for Spaghetti.
+2026-01-29 00:34:22,183 - INFO - Processing Product: Waakye Customizable | Qty: 15
+2026-01-29 00:34:22,184 - INFO - → Deducting 300.00 of Raw Rice (raw) for Waakye Customizable.
+2026-01-29 00:34:22,184 - INFO - ✅ Inventory deduction completed for Sale ID: 15
+2026-01-29 00:34:22,185 - INFO - Order 15 marked as completed successfully
+2026-01-30 22:39:32,995 - INFO - Starting inventory deduction for Sale ID: 17
+2026-01-30 22:39:33,003 - INFO - Processing Product: Waakye Customizable | Qty: 30
+2026-01-30 22:39:33,005 - INFO - ✅ Inventory deduction completed for Sale ID: 17
+2026-01-30 22:39:33,007 - INFO - Order 17 marked as completed successfully
+2026-01-30 22:43:50,263 - INFO - Starting inventory deduction for Sale ID: 18
+2026-01-30 22:43:50,267 - INFO - Processing Product: Waakye Customizable | Qty: 15
+2026-01-30 22:43:50,268 - INFO - → Deducting 150.00 from Waakye Customizable self stock.
+2026-01-30 22:43:50,269 - INFO - ✅ Inventory deduction completed for Sale ID: 18
+2026-01-30 22:43:50,270 - INFO - Order 18 marked as completed successfully
+2026-01-31 01:14:15,338 - INFO - Starting inventory deduction for Sale ID: 19
+2026-01-31 01:14:15,344 - INFO - Processing Product: Waakye Customizable | Qty: 15
+2026-01-31 01:14:15,345 - INFO - → Deducting 150.00 from Waakye Customizable self stock.
+2026-01-31 01:14:15,346 - INFO - ✅ Inventory deduction completed for Sale ID: 19
+2026-01-31 01:14:15,347 - INFO - Order 19 marked as completed successfully
+2026-01-31 01:34:39,574 - INFO - Starting inventory deduction for Sale ID: 21
+2026-01-31 01:34:39,576 - INFO - Processing Customization: Spaghetti | Qty: 1
+2026-01-31 01:34:39,577 - INFO - Processing Customization: Egg | Qty: 2
+2026-01-31 01:34:39,578 - INFO - → Deducting 2.00 from Egg self stock.
+2026-01-31 01:34:39,579 - INFO - Processing Product: Waakye Customizable | Qty: 15
+2026-01-31 01:34:39,579 - INFO - → Deducting 150.00 from Waakye Customizable self stock.
+2026-01-31 01:34:39,580 - INFO - ✅ Inventory deduction completed for Sale ID: 21
+2026-01-31 01:34:39,581 - INFO - Order 21 marked as completed successfully
+2026-01-31 02:01:55,110 - INFO - Starting inventory deduction for Sale ID: 23
+2026-01-31 02:01:55,117 - INFO - Processing Customization: Spaghetti | Qty: 4
+2026-01-31 02:01:55,118 - INFO - Processing Customization: Egg | Qty: 3
+2026-01-31 02:01:55,119 - INFO - → Deducting 3.00 from Egg self stock.
+2026-01-31 02:01:55,119 - INFO - Processing Product: Waakye Customizable | Qty: 15
+2026-01-31 02:01:55,120 - INFO - → Deducting 150.00 from Waakye Customizable self stock.
+2026-01-31 02:01:55,121 - INFO - ✅ Inventory deduction completed for Sale ID: 23
+2026-01-31 02:01:55,122 - INFO - Order 23 marked as completed successfully
+2026-01-31 18:40:09,517 - INFO - User attipoe resuming Order #24
+2026-01-31 18:40:55,571 - INFO - User attipoe resuming Order #24
+2026-01-31 18:40:55,573 - INFO - Starting inventory deduction for Sale ID: 24
+2026-01-31 18:40:55,576 - INFO - Processing Customization: Spaghetti | Qty: 3
+2026-01-31 18:40:55,578 - INFO - Processing Customization: Egg | Qty: 1
+2026-01-31 18:40:55,579 - INFO - → Deducting 1.00 from Egg self stock.
+2026-01-31 18:40:55,580 - INFO - Processing Product: Waakye Customizable | Qty: 30
+2026-01-31 18:40:55,581 - INFO - → Deducting 300.00 from Waakye Customizable self stock.
+2026-01-31 18:40:55,582 - INFO - ✅ Inventory deduction completed for Sale ID: 24
+2026-01-31 18:40:55,583 - INFO - Order 24 marked as completed successfully
+2026-01-31 18:43:47,410 - INFO - User attipoe resuming Order #25
+2026-01-31 18:43:51,587 - INFO - User attipoe resuming Order #25
+2026-01-31 18:43:51,589 - INFO - Starting inventory deduction for Sale ID: 25
+2026-01-31 18:43:51,591 - INFO - Processing Product: Waakye Customizable | Qty: 25
+2026-01-31 18:43:51,592 - INFO - → Deducting 250.00 from Waakye Customizable self stock.
+2026-01-31 18:43:51,594 - INFO - Processing Customization: Egg | Qty: 1
+2026-01-31 18:43:51,594 - INFO - → Deducting 1.00 from Egg self stock.
+2026-01-31 18:43:51,595 - INFO - Processing Customization: Spaghetti | Qty: 1
+2026-01-31 18:43:51,595 - INFO - ✅ Inventory deduction completed for Sale ID: 25
+2026-01-31 18:43:51,596 - INFO - Order 25 marked as completed successfully
+2026-01-31 19:00:34,459 - INFO - User attipoe resuming Order #26
+2026-01-31 19:00:38,833 - INFO - User attipoe resuming Order #26
+2026-01-31 19:00:38,834 - INFO - Starting inventory deduction for Sale ID: 26
+2026-01-31 19:00:38,836 - INFO - Processing Product: Waakye Customizable | Qty: 20
+2026-01-31 19:00:38,838 - INFO - → Deducting 200.00 from Waakye Customizable self stock.
+2026-01-31 19:00:38,839 - INFO - Processing Customization: Egg | Qty: 1
+2026-01-31 19:00:38,840 - INFO - → Deducting 1.00 from Egg self stock.
+2026-01-31 19:00:38,841 - INFO - Processing Customization: Spaghetti | Qty: 1
+2026-01-31 19:00:38,843 - INFO - ✅ Inventory deduction completed for Sale ID: 26
+2026-01-31 19:00:38,844 - INFO - Order 26 marked as completed successfully
+2026-01-31 19:07:00,073 - INFO - User attipoe resuming Order #27
+2026-01-31 19:07:02,341 - INFO - Starting inventory deduction for Sale ID: 27
+2026-01-31 19:07:02,348 - INFO - Processing Product: Waakye Customizable | Qty: 15
+2026-01-31 19:07:02,350 - INFO - → Deducting 150.00 from Waakye Customizable self stock.
+2026-01-31 19:07:02,351 - INFO - Processing Customization: Egg | Qty: 3
+2026-01-31 19:07:02,352 - INFO - → Deducting 3.00 from Egg self stock.
+2026-01-31 19:07:02,355 - INFO - Processing Customization: Spaghetti | Qty: 1
+2026-01-31 19:07:02,356 - INFO - ✅ Inventory deduction completed for Sale ID: 27
+2026-01-31 19:07:02,357 - INFO - Order 27 marked as completed successfully
+2026-01-31 19:12:56,495 - INFO - User attipoe resuming Order #28
+2026-01-31 19:12:58,153 - INFO - Starting inventory deduction for Sale ID: 28
+2026-01-31 19:12:58,156 - INFO - Processing Product: Waakye Customizable | Qty: 15
+2026-01-31 19:12:58,157 - INFO - → Deducting 150.00 from Waakye Customizable self stock.
+2026-01-31 19:12:58,158 - INFO - Processing Customization: Egg | Qty: 1
+2026-01-31 19:12:58,158 - INFO - → Deducting 1.00 from Egg self stock.
+2026-01-31 19:12:58,159 - INFO - Processing Customization: Spaghetti | Qty: 1
+2026-01-31 19:12:58,160 - INFO - ✅ Inventory deduction completed for Sale ID: 28
+2026-01-31 19:12:58,161 - INFO - Order 28 marked as completed successfully
+2026-01-31 21:04:05,682 - INFO - User olayode resuming Order #20
+2026-01-31 21:04:08,989 - INFO - Starting inventory deduction for Sale ID: 20
+2026-01-31 21:04:08,994 - INFO - Processing Customization: Spaghetti | Qty: 4
+2026-01-31 21:04:08,996 - INFO - Processing Customization: Egg | Qty: 3
+2026-01-31 21:04:08,997 - INFO - → Deducting 3.00 from Egg self stock.
+2026-01-31 21:04:08,998 - INFO - Processing Product: Waakye Customizable | Qty: 15
+2026-01-31 21:04:08,998 - INFO - → Deducting 150.00 from Waakye Customizable self stock.
+2026-01-31 21:04:09,000 - INFO - ✅ Inventory deduction completed for Sale ID: 20
+2026-01-31 21:04:09,002 - INFO - Order 20 marked as completed successfully
+2026-01-31 21:05:52,531 - INFO - Starting inventory deduction for Sale ID: 30
+2026-01-31 21:05:52,535 - INFO - Processing Product: Waakye Customizable | Qty: 15
+2026-01-31 21:05:52,536 - INFO - → Deducting 150.00 from Waakye Customizable self stock.
+2026-01-31 21:05:52,537 - INFO - Processing Customization: Egg | Qty: 1
+2026-01-31 21:05:52,538 - INFO - → Deducting 1.00 from Egg self stock.
+2026-01-31 21:05:52,539 - INFO - ✅ Inventory deduction completed for Sale ID: 30
+2026-01-31 21:05:52,540 - INFO - Order 30 marked as completed successfully
+2026-01-31 21:05:54,729 - INFO - Starting inventory deduction for Sale ID: 29
+2026-01-31 21:05:54,733 - INFO - Processing Product: Waakye Customizable | Qty: 15
+2026-01-31 21:05:54,734 - INFO - → Deducting 150.00 from Waakye Customizable self stock.
+2026-01-31 21:05:54,735 - INFO - Processing Customization: Egg | Qty: 2
+2026-01-31 21:05:54,736 - INFO - → Deducting 2.00 from Egg self stock.
+2026-01-31 21:05:54,736 - INFO - Processing Customization: Spaghetti | Qty: 2
+2026-01-31 21:05:54,737 - INFO - ✅ Inventory deduction completed for Sale ID: 29
+2026-01-31 21:05:54,738 - INFO - Order 29 marked as completed successfully
+2026-01-31 22:49:31,341 - INFO - Starting inventory deduction for Sale ID: 31
+2026-01-31 22:49:31,347 - INFO - Processing Product: Waakye Customizable | Qty: 20
+2026-01-31 22:49:31,348 - INFO - → Deducting 200.00 from Waakye Customizable self stock.
+2026-01-31 22:49:31,350 - INFO - Processing Customization: Egg | Qty: 1
+2026-01-31 22:49:31,351 - INFO - → Deducting 1.00 from Egg self stock.
+2026-01-31 22:49:31,352 - INFO - Processing Customization: Spaghetti | Qty: 1
+2026-01-31 22:49:31,353 - INFO - Processing Product: Waakye Customizable | Qty: 15
+2026-01-31 22:49:31,353 - INFO - → Deducting 150.00 from Waakye Customizable self stock.
+2026-01-31 22:49:31,354 - INFO - Processing Customization: Egg | Qty: 1
+2026-01-31 22:49:31,355 - INFO - → Deducting 1.00 from Egg self stock.
+2026-01-31 22:49:31,355 - INFO - Processing Customization: Spaghetti | Qty: 1
+2026-01-31 22:49:31,356 - INFO - ✅ Inventory deduction completed for Sale ID: 31
+2026-01-31 22:49:31,358 - INFO - Order 31 marked as completed successfully
+2026-01-31 23:55:26,852 - INFO - User olayode resuming Order #32
+2026-01-31 23:56:42,740 - INFO - Starting inventory deduction for Sale ID: 32
+2026-01-31 23:56:42,744 - INFO - Processing Product: Waakye Customizable | Qty: 15
+2026-01-31 23:56:42,745 - INFO - → Deducting 150.00 from Waakye Customizable self stock.
+2026-01-31 23:56:42,746 - INFO - Processing Customization: Egg | Qty: 1
+2026-01-31 23:56:42,746 - INFO - → Deducting 1.00 from Egg self stock.
+2026-01-31 23:56:42,747 - INFO - Processing Customization: Spaghetti | Qty: 1
+2026-01-31 23:56:42,748 - INFO - ✅ Inventory deduction completed for Sale ID: 32
+2026-01-31 23:56:42,751 - INFO - Order 32 marked as completed successfully
+2026-02-01 00:10:02,214 - INFO - User olayode resuming Order #33
+2026-02-01 00:11:14,766 - INFO - User olayode resuming Order #33
+2026-02-01 00:11:18,183 - INFO - Starting inventory deduction for Sale ID: 33
+2026-02-01 00:11:18,187 - INFO - Processing Product: Waakye Customizable | Qty: 15
+2026-02-01 00:11:18,189 - INFO - → Deducting 150.00 from Waakye Customizable self stock.
+2026-02-01 00:11:18,190 - INFO - Processing Customization: Spaghetti | Qty: 1
+2026-02-01 00:11:18,191 - INFO - Processing Product: Waakye Customizable | Qty: 15
+2026-02-01 00:11:18,191 - INFO - → Deducting 150.00 from Waakye Customizable self stock.
+2026-02-01 00:11:18,192 - INFO - Processing Product: Waakye Customizable | Qty: 15
+2026-02-01 00:11:18,193 - INFO - → Deducting 150.00 from Waakye Customizable self stock.
+2026-02-01 00:11:18,194 - INFO - ✅ Inventory deduction completed for Sale ID: 33
+2026-02-01 00:11:18,196 - INFO - Order 33 marked as completed successfully
+2026-02-01 01:53:01,646 - INFO - User olayode resuming Order #34
+2026-02-01 01:53:24,696 - INFO - Order 34 marked as CANCELLED.
+2026-02-01 01:53:46,935 - INFO - Order 34 moved back to INQUEUE and unassigned.
+2026-02-01 01:54:54,510 - INFO - Order 34 moved back to INQUEUE and unassigned.
+2026-02-01 01:54:58,510 - INFO - Starting inventory deduction for Sale ID: 34
+2026-02-01 01:54:58,514 - INFO - Processing Product: Waakye Customizable | Qty: 15
+2026-02-01 01:54:58,516 - INFO - → Deducting 150.00 from Waakye Customizable self stock.
+2026-02-01 01:54:58,518 - INFO - Processing Customization: Egg | Qty: 1
+2026-02-01 01:54:58,519 - INFO - → Deducting 1.00 from Egg self stock.
+2026-02-01 01:54:58,521 - INFO - ✅ Inventory deduction completed for Sale ID: 34
+2026-02-01 01:54:58,522 - INFO - Order 34 marked as completed successfully
+2026-02-01 10:55:08,173 - INFO - User yemisi resuming Order #22
+2026-02-01 10:55:14,146 - INFO - User yemisi resuming Order #22
+2026-02-01 10:55:22,941 - INFO - Starting inventory deduction for Sale ID: 22
+2026-02-01 10:55:22,945 - INFO - Processing Product: Waakye Customizable | Qty: 15
+2026-02-01 10:55:22,947 - INFO - → Deducting 150.00 from Waakye Customizable self stock.
+2026-02-01 10:55:22,948 - INFO - Processing Customization: Egg | Qty: 1
+2026-02-01 10:55:22,949 - INFO - → Deducting 1.00 from Egg self stock.
+2026-02-01 10:55:22,951 - INFO - Processing Product: Waakye Customizable | Qty: 25
+2026-02-01 10:55:22,954 - INFO - → Deducting 250.00 from Waakye Customizable self stock.
+2026-02-01 10:55:22,956 - INFO - Processing Customization: Egg | Qty: 3
+2026-02-01 10:55:22,957 - INFO - → Deducting 3.00 from Egg self stock.
+2026-02-01 10:55:22,959 - INFO - Processing Product: Waakye Customizable | Qty: 15
+2026-02-01 10:55:22,960 - INFO - → Deducting 150.00 from Waakye Customizable self stock.
+2026-02-01 10:55:22,960 - INFO - Processing Customization: Egg | Qty: 3
+2026-02-01 10:55:22,961 - INFO - → Deducting 3.00 from Egg self stock.
+2026-02-01 10:55:22,961 - INFO - ✅ Inventory deduction completed for Sale ID: 22
+2026-02-01 10:55:22,963 - INFO - Order 22 marked as completed successfully
+2026-02-01 10:55:31,004 - INFO - Starting inventory deduction for Sale ID: 35
+2026-02-01 10:55:31,007 - INFO - Processing Product: Waakye Customizable | Qty: 15
+2026-02-01 10:55:31,008 - INFO - → Deducting 150.00 from Waakye Customizable self stock.
+2026-02-01 10:55:31,010 - INFO - ✅ Inventory deduction completed for Sale ID: 35
+2026-02-01 10:55:31,012 - INFO - Order 35 marked as completed successfully
+2026-02-01 10:55:41,992 - INFO - Starting inventory deduction for Sale ID: 36
+2026-02-01 10:55:41,995 - INFO - Processing Product: Waakye Customizable | Qty: 15
+2026-02-01 10:55:41,996 - INFO - → Deducting 150.00 from Waakye Customizable self stock.
+2026-02-01 10:55:41,997 - INFO - Processing Customization: Egg | Qty: 1
+2026-02-01 10:55:41,997 - INFO - → Deducting 1.00 from Egg self stock.
+2026-02-01 10:55:41,998 - INFO - ✅ Inventory deduction completed for Sale ID: 36
+2026-02-01 10:55:41,999 - INFO - Order 36 marked as completed successfully
+2026-02-01 11:07:35,432 - INFO - Starting inventory deduction for Sale ID: 37
+2026-02-01 11:07:35,444 - INFO - Processing Product: Waakye Customizable | Qty: 15
+2026-02-01 11:07:35,447 - INFO - → Deducting 150.00 from Waakye Customizable self stock.
+2026-02-01 11:07:35,449 - INFO - ✅ Inventory deduction completed for Sale ID: 37
+2026-02-01 11:07:35,450 - INFO - Order 37 marked as completed successfully
+2026-02-01 11:07:48,312 - INFO - Starting inventory deduction for Sale ID: 38
+2026-02-01 11:07:48,315 - INFO - Processing Product: Waakye Customizable | Qty: 15
+2026-02-01 11:07:48,316 - INFO - → Deducting 150.00 from Waakye Customizable self stock.
+2026-02-01 11:07:48,317 - INFO - ✅ Inventory deduction completed for Sale ID: 38
+2026-02-01 11:07:48,319 - INFO - Order 38 marked as completed successfully
+2026-02-01 11:09:32,991 - INFO - Starting inventory deduction for Sale ID: 39
+2026-02-01 11:09:32,995 - INFO - Processing Product: Waakye Customizable | Qty: 15
+2026-02-01 11:09:32,996 - INFO - → Deducting 150.00 from Waakye Customizable self stock.
+2026-02-01 11:09:32,997 - INFO - ✅ Inventory deduction completed for Sale ID: 39
+2026-02-01 11:09:32,999 - INFO - Order 39 marked as completed successfully
+2026-02-01 11:09:41,753 - INFO - Starting inventory deduction for Sale ID: 40
+2026-02-01 11:09:41,755 - INFO - Processing Product: Waakye Customizable | Qty: 15
+2026-02-01 11:09:41,755 - INFO - → Deducting 150.00 from Waakye Customizable self stock.
+2026-02-01 11:09:41,756 - INFO - ✅ Inventory deduction completed for Sale ID: 40
+2026-02-01 11:09:41,757 - INFO - Order 40 marked as completed successfully
+2026-02-01 11:10:38,062 - INFO - Starting inventory deduction for Sale ID: 41
+2026-02-01 11:10:38,065 - INFO - Processing Product: Waakye Customizable | Qty: 15
+2026-02-01 11:10:38,067 - INFO - → Deducting 150.00 from Waakye Customizable self stock.
+2026-02-01 11:10:38,068 - INFO - Processing Customization: Egg | Qty: 1
+2026-02-01 11:10:38,069 - INFO - → Deducting 1.00 from Egg self stock.
+2026-02-01 11:10:38,070 - INFO - Processing Product: Waakye Customizable | Qty: 30
+2026-02-01 11:10:38,071 - INFO - → Deducting 300.00 from Waakye Customizable self stock.
+2026-02-01 11:10:38,072 - INFO - Processing Customization: Egg | Qty: 1
+2026-02-01 11:10:38,072 - INFO - → Deducting 1.00 from Egg self stock.
+2026-02-01 11:10:38,073 - INFO - ✅ Inventory deduction completed for Sale ID: 41
+2026-02-01 11:10:38,075 - INFO - Order 41 marked as completed successfully
+2026-02-01 18:43:49,645 - INFO - Starting inventory deduction for Sale ID: 42
+2026-02-01 18:43:49,651 - INFO - Processing Product: Waakye Customizable | Qty: 1
+2026-02-01 18:43:49,653 - INFO - ✅ Inventory deduction completed for Sale ID: 42
+2026-02-01 18:43:49,654 - INFO - Order 42 marked as completed successfully
+2026-02-01 19:40:35,557 - INFO - Starting inventory deduction for Sale ID: 43
+2026-02-01 19:40:35,564 - INFO - Processing Product: Waakye Customizable | Qty: 11
+2026-02-01 19:40:35,566 - INFO - ✅ Inventory deduction completed for Sale ID: 43
+2026-02-01 19:40:35,569 - INFO - Order 43 marked as completed successfully
+2026-02-01 19:49:24,329 - INFO - Starting inventory deduction for Sale ID: 44
+2026-02-01 19:49:24,336 - INFO - Processing Product: vwded | Qty: 3
+2026-02-01 19:49:24,338 - INFO - ✅ Inventory deduction completed for Sale ID: 44
+2026-02-01 19:49:24,340 - INFO - Order 44 marked as completed successfully
+2026-02-01 19:50:04,368 - INFO - Order 45 marked as CANCELLED.
+2026-02-01 19:57:14,588 - INFO - Order 45 moved back to INQUEUE and unassigned.
+2026-02-01 19:57:30,221 - INFO - Starting inventory deduction for Sale ID: 45
+2026-02-01 19:57:30,226 - INFO - Processing Product: Waakye Customizable | Qty: 4
+2026-02-01 19:57:30,228 - INFO - ✅ Inventory deduction completed for Sale ID: 45
+2026-02-01 19:57:30,229 - INFO - Order 45 marked as completed successfully
+2026-02-02 00:49:24,064 - INFO - Starting inventory deduction for Sale ID: 46
+2026-02-02 00:49:24,067 - INFO - Processing Product: Waakye Customizable | Qty: 5
+2026-02-02 00:49:24,068 - INFO - ✅ Inventory deduction completed for Sale ID: 46
+2026-02-02 00:49:24,069 - INFO - Order 46 marked as completed successfully
+2026-02-02 00:49:33,581 - INFO - Starting inventory deduction for Sale ID: 47
+2026-02-02 00:49:33,584 - INFO - Processing Product: vwded | Qty: 4
+2026-02-02 00:49:33,586 - INFO - ✅ Inventory deduction completed for Sale ID: 47
+2026-02-02 00:49:33,587 - INFO - Order 47 marked as completed successfully
+2026-02-02 08:25:04,945 - INFO - Starting inventory deduction for Sale ID: 47
+2026-02-02 08:25:04,954 - INFO - Processing Product: vwded | Qty: 4
+2026-02-02 08:25:04,957 - INFO - → Deducting 8.00 of Raw Spagghetti (raw) for vwded.
+2026-02-02 08:25:04,957 - INFO - ✅ Inventory deduction completed for Sale ID: 47
+2026-02-02 08:25:04,958 - INFO - Order 47 marked as completed successfully
+2026-02-02 08:28:07,338 - INFO - Starting inventory deduction for Sale ID: 44
+2026-02-02 08:28:07,344 - INFO - Processing Product: vwded | Qty: 3
+2026-02-02 08:28:07,347 - INFO - → Deducting 6.00 of Raw Spagghetti (raw) for vwded.
+2026-02-02 08:28:07,347 - INFO - ✅ Inventory deduction completed for Sale ID: 44
+2026-02-02 08:28:07,349 - INFO - Order 44 marked as completed successfully
+2026-02-03 04:55:04,628 - INFO - Starting inventory deduction for Sale ID: 48
+2026-02-03 04:55:04,635 - INFO - Processing Customization: egg | Qty: 1
+2026-02-03 04:55:04,637 - INFO - → Deducting 993.00 of Raw Eggs (raw) for egg.
+2026-02-03 04:55:04,638 - INFO - Processing Product: Jollof | Qty: 1
+2026-02-03 04:55:04,639 - INFO - ✅ Inventory deduction completed for Sale ID: 48
+2026-02-03 04:55:04,641 - INFO - Order 48 marked as completed successfully
+2026-02-03 04:56:14,144 - INFO - Starting inventory deduction for Sale ID: 49
+2026-02-03 04:56:14,148 - INFO - Processing Customization: egg | Qty: 1
+2026-02-03 04:56:14,150 - INFO - → Deducting 993.00 of Raw Eggs (raw) for egg.
+2026-02-03 04:56:14,150 - INFO - Processing Product: Jollof | Qty: 1
+2026-02-03 04:56:14,151 - INFO - ✅ Inventory deduction completed for Sale ID: 49
+2026-02-03 04:56:14,151 - INFO - Order 49 marked as completed successfully
+2026-02-03 05:27:18,754 - INFO - Starting inventory deduction for Sale ID: 50
+2026-02-03 05:27:18,761 - INFO - Processing Customization: egg | Qty: 1
+2026-02-03 05:27:18,762 - INFO - → Deducting 993.00 of Raw Eggs (raw) for egg.
+2026-02-03 05:27:18,763 - INFO - → Deducting 707.00 of Raw Spagghetti (raw) for egg.
+2026-02-03 05:27:18,763 - INFO - Processing Product: Jollof | Qty: 1
+2026-02-03 05:27:18,764 - INFO - ✅ Inventory deduction completed for Sale ID: 50
+2026-02-03 05:27:18,764 - INFO - Order 50 marked as completed successfully
+2026-02-03 06:08:22,994 - INFO - Starting inventory deduction for Sale ID: 51
+2026-02-03 06:08:23,005 - INFO - Processing Customization: egg | Qty: 2
+2026-02-03 06:08:23,007 - INFO - → Deducting 1986.00 of Raw Eggs (raw) for egg.
+2026-02-03 06:08:23,007 - INFO - → Deducting 1414.00 of Raw Spagghetti (raw) for egg.
+2026-02-03 06:08:23,007 - INFO - Processing Product: Waakye Jumbo | Qty: 1
+2026-02-03 06:08:23,009 - INFO - → Deducting 2.00 of Eggs(Packages) (raw) for Waakye Jumbo.
+2026-02-03 06:08:23,009 - INFO - ✅ Inventory deduction completed for Sale ID: 51
+2026-02-03 06:08:23,011 - INFO - Order 51 marked as completed successfully
+2026-02-03 06:21:20,681 - INFO - Starting inventory deduction for Sale ID: 52
+2026-02-03 06:21:20,686 - INFO - Processing Product: vwded | Qty: 1
+2026-02-03 06:21:20,688 - INFO - → Deducting 2.00 of Raw Spagghetti (raw) for vwded.
+2026-02-03 06:21:20,688 - INFO - ✅ Inventory deduction completed for Sale ID: 52
+2026-02-03 06:21:20,689 - INFO - Order 52 marked as completed successfully
+2026-02-03 07:14:24,064 - INFO - Starting inventory deduction for Sale ID: 53
+2026-02-03 07:14:24,069 - INFO - Processing Customization: egg | Qty: 9
+2026-02-03 07:14:24,073 - INFO - → Deducting 8937.00 of Raw Eggs (raw) for egg.
+2026-02-03 07:14:24,073 - INFO - → Deducting 6363.00 of Raw Spagghetti (raw) for egg.
+2026-02-03 07:14:24,073 - INFO - Processing Product: Waakye Jumbo | Qty: 11
+2026-02-03 07:14:24,075 - INFO - → Deducting 22.00 of Eggs(Packages) (raw) for Waakye Jumbo.
+2026-02-03 07:14:24,075 - INFO - ✅ Inventory deduction completed for Sale ID: 53
+2026-02-03 07:14:24,077 - INFO - Order 53 marked as completed successfully
+2026-02-03 08:00:31,143 - INFO - User olayode resuming Order #54
+2026-02-03 08:10:50,380 - INFO - User olayode resuming Order #54
+2026-02-03 08:21:56,033 - INFO - User olayode resuming Order #54
+2026-02-03 08:25:58,206 - INFO - User olayode resuming Order #54
+2026-02-03 08:28:23,048 - INFO - User olayode resuming Order #54
+2026-02-03 08:41:43,479 - INFO - User olayode resuming Order #54
+2026-02-03 08:47:00,471 - INFO - User olayode resuming Order #54
+2026-02-03 08:51:19,375 - INFO - User olayode resuming Order #54
+2026-02-03 14:57:40,257 - INFO - User olayode resuming Order #54
+2026-02-03 15:02:19,397 - INFO - User olayode resuming Order #54
+2026-02-03 15:13:02,075 - INFO - User olayode resuming Order #54
+2026-02-03 15:26:33,117 - INFO - User olayode resuming Order #54
+2026-02-04 08:24:30,465 - INFO - User yemisi resuming Order #55
+2026-02-04 08:24:31,816 - INFO - Starting inventory deduction for Sale ID: 55
+2026-02-04 08:24:31,821 - INFO - Processing Product: Waakye Customizable | Qty: 4
+2026-02-04 08:24:31,824 - INFO - → Deducting 10.00 of Raw Rice (raw) for Waakye Customizable.
+2026-02-04 08:24:31,824 - INFO - ✅ Inventory deduction completed for Sale ID: 55
+2026-02-04 08:24:31,826 - INFO - Order 55 marked as completed successfully
+2026-02-04 08:24:39,612 - INFO - Starting inventory deduction for Sale ID: 56
+2026-02-04 08:24:39,617 - INFO - Processing Product: Waakye Customizable | Qty: 1
+2026-02-04 08:24:39,620 - INFO - → Deducting 2.50 of Raw Rice (raw) for Waakye Customizable.
+2026-02-04 08:24:39,620 - INFO - ✅ Inventory deduction completed for Sale ID: 56
+2026-02-04 08:24:39,622 - INFO - Order 56 marked as completed successfully
+2026-02-04 08:24:47,059 - INFO - Starting inventory deduction for Sale ID: 57
+2026-02-04 08:24:47,063 - INFO - Processing Product: Waakye Customizable | Qty: 1
+2026-02-04 08:24:47,066 - INFO - → Deducting 2.50 of Raw Rice (raw) for Waakye Customizable.
+2026-02-04 08:24:47,066 - INFO - ✅ Inventory deduction completed for Sale ID: 57
+2026-02-04 08:24:47,068 - INFO - Order 57 marked as completed successfully
+2026-02-04 08:24:56,395 - INFO - Starting inventory deduction for Sale ID: 58
+2026-02-04 08:24:56,400 - INFO - Processing Product: Waakye Customizable | Qty: 1
+2026-02-04 08:24:56,403 - INFO - → Deducting 2.50 of Raw Rice (raw) for Waakye Customizable.
+2026-02-04 08:24:56,403 - INFO - ✅ Inventory deduction completed for Sale ID: 58
+2026-02-04 08:24:56,405 - INFO - Order 58 marked as completed successfully
+2026-02-04 08:25:19,880 - INFO - Starting inventory deduction for Sale ID: 59
+2026-02-04 08:25:19,884 - INFO - Processing Product: Waakye Jumbo | Qty: 1
+2026-02-04 08:25:19,887 - INFO - → Deducting 2.00 of Eggs(Packages) (raw) for Waakye Jumbo.
+2026-02-04 08:25:19,887 - INFO - ✅ Inventory deduction completed for Sale ID: 59
+2026-02-04 08:25:19,888 - INFO - Order 59 marked as completed successfully
+2026-02-04 08:25:27,531 - INFO - Starting inventory deduction for Sale ID: 60
+2026-02-04 08:25:27,536 - INFO - Processing Product: Waakye Customizable | Qty: 1
+2026-02-04 08:25:27,538 - INFO - → Deducting 2.50 of Raw Rice (raw) for Waakye Customizable.
+2026-02-04 08:25:27,539 - INFO - ✅ Inventory deduction completed for Sale ID: 60
+2026-02-04 08:25:27,540 - INFO - Order 60 marked as completed successfully
+2026-02-04 08:25:38,868 - INFO - Starting inventory deduction for Sale ID: 61
+2026-02-04 08:25:38,871 - INFO - Processing Product: Waakye Jumbo | Qty: 1
+2026-02-04 08:25:38,874 - INFO - → Deducting 2.00 of Eggs(Packages) (raw) for Waakye Jumbo.
+2026-02-04 08:25:38,874 - INFO - ✅ Inventory deduction completed for Sale ID: 61
+2026-02-04 08:25:38,876 - INFO - Order 61 marked as completed successfully
+2026-02-04 08:45:24,965 - INFO - Starting inventory deduction for Sale ID: 77
+2026-02-04 08:45:24,970 - INFO - Processing Product: Waakye Jumbo | Qty: 1
+2026-02-04 08:45:24,972 - INFO - → Deducting 2.00 of Eggs(Packages) (raw) for Waakye Jumbo.
+2026-02-04 08:45:24,973 - INFO - Processing Customization: egg | Qty: 1
+2026-02-04 08:45:24,974 - INFO - → Deducting 993.00 of Raw Eggs (raw) for egg.
+2026-02-04 08:45:24,975 - INFO - → Deducting 707.00 of Raw Spagghetti (raw) for egg.
+2026-02-04 08:45:24,975 - INFO - ✅ Inventory deduction completed for Sale ID: 77
+2026-02-04 08:45:24,976 - INFO - Order 77 marked as completed successfully
+2026-02-04 08:51:00,464 - INFO - User yemisi resuming Order #62
+2026-02-04 09:00:05,701 - INFO - User yemisi resuming Order #62
+2026-02-04 09:00:11,367 - INFO - User yemisi resuming Order #62
+2026-02-04 09:15:13,427 - INFO - Starting inventory deduction for Sale ID: 78
+2026-02-04 09:15:13,432 - INFO - Processing Product: Waakye Customizable | Qty: 5
+2026-02-04 09:15:13,435 - INFO - → Deducting 12.50 of Raw Rice (raw) for Waakye Customizable.
+2026-02-04 09:15:13,435 - INFO - ✅ Inventory deduction completed for Sale ID: 78
+2026-02-04 09:15:13,435 - INFO - Order 78 marked as completed successfully
+2026-02-04 09:15:40,280 - INFO - User yemisi resuming Order #62
+2026-02-04 09:17:45,366 - INFO - Starting inventory deduction for Sale ID: 79
+2026-02-04 09:17:45,369 - INFO - Processing Product: Waakye Customizable | Qty: 1
+2026-02-04 09:17:45,370 - INFO - → Deducting 2.50 of Raw Rice (raw) for Waakye Customizable.
+2026-02-04 09:17:45,371 - INFO - Processing Product: Waakye Customizable | Qty: 1
+2026-02-04 09:17:45,372 - INFO - → Deducting 2.50 of Raw Rice (raw) for Waakye Customizable.
+2026-02-04 09:17:45,372 - INFO - ✅ Inventory deduction completed for Sale ID: 79
+2026-02-04 09:17:45,372 - INFO - Order 79 marked as completed successfully
+2026-02-04 09:27:25,391 - INFO - User yemisi resuming Order #62
+2026-02-04 09:37:59,192 - INFO - Starting inventory deduction for Sale ID: 80
+2026-02-04 09:37:59,234 - INFO - Processing Product: Waakye Customizable | Qty: 6
+2026-02-04 09:37:59,238 - INFO - → Deducting 15.00 of Raw Rice (raw) for Waakye Customizable.
+2026-02-04 09:37:59,238 - INFO - Processing Product: Waakye Customizable | Qty: 6
+2026-02-04 09:37:59,240 - INFO - → Deducting 15.00 of Raw Rice (raw) for Waakye Customizable.
+2026-02-04 09:37:59,241 - INFO - Processing Product: Waakye Jumbo | Qty: 4
+2026-02-04 09:37:59,242 - INFO - → Deducting 8.00 of Eggs(Packages) (raw) for Waakye Jumbo.
+2026-02-04 09:37:59,242 - INFO - Processing Customization: egg | Qty: 4
+2026-02-04 09:37:59,243 - INFO - → Deducting 3972.00 of Raw Eggs (raw) for egg.
+2026-02-04 09:37:59,244 - INFO - → Deducting 2828.00 of Raw Spagghetti (raw) for egg.
+2026-02-04 09:37:59,244 - INFO - Processing Product: Jollof | Qty: 1
+2026-02-04 09:37:59,245 - INFO - Processing Customization: egg | Qty: 3
+2026-02-04 09:37:59,246 - INFO - → Deducting 2979.00 of Raw Eggs (raw) for egg.
+2026-02-04 09:37:59,247 - INFO - → Deducting 2121.00 of Raw Spagghetti (raw) for egg.
+2026-02-04 09:37:59,247 - INFO - Processing Product: Jollof | Qty: 1
+2026-02-04 09:37:59,248 - INFO - Processing Customization: egg | Qty: 3
+2026-02-04 09:37:59,249 - INFO - → Deducting 2979.00 of Raw Eggs (raw) for egg.
+2026-02-04 09:37:59,250 - INFO - → Deducting 2121.00 of Raw Spagghetti (raw) for egg.
+2026-02-04 09:37:59,250 - INFO - Processing Product: Waakye Jumbo | Qty: 11
+2026-02-04 09:37:59,251 - INFO - → Deducting 22.00 of Eggs(Packages) (raw) for Waakye Jumbo.
+2026-02-04 09:37:59,251 - INFO - Processing Customization: egg | Qty: 8
+2026-02-04 09:37:59,252 - INFO - → Deducting 7944.00 of Raw Eggs (raw) for egg.
+2026-02-04 09:37:59,252 - INFO - → Deducting 5656.00 of Raw Spagghetti (raw) for egg.
+2026-02-04 09:37:59,252 - INFO - ✅ Inventory deduction completed for Sale ID: 80
+2026-02-04 09:37:59,252 - INFO - Order 80 marked as completed successfully
+2026-02-04 09:40:57,765 - INFO - User yemisi resuming Order #62
+2026-02-04 09:51:56,565 - INFO - Starting inventory deduction for Sale ID: 81
+2026-02-04 09:51:56,568 - INFO - Processing Product: Waakye Customizable | Qty: 4
+2026-02-04 09:51:56,569 - INFO - → Deducting 10.00 of Raw Rice (raw) for Waakye Customizable.
+2026-02-04 09:51:56,569 - INFO - Processing Product: Waakye Customizable | Qty: 4
+2026-02-04 09:51:56,570 - INFO - → Deducting 10.00 of Raw Rice (raw) for Waakye Customizable.
+2026-02-04 09:51:56,570 - INFO - Processing Product: Jollof | Qty: 1
+2026-02-04 09:51:56,571 - INFO - Processing Customization: egg | Qty: 5
+2026-02-04 09:51:56,572 - INFO - → Deducting 4965.00 of Raw Eggs (raw) for egg.
+2026-02-04 09:51:56,572 - INFO - → Deducting 3535.00 of Raw Spagghetti (raw) for egg.
+2026-02-04 09:51:56,572 - INFO - Processing Product: Jollof | Qty: 1
+2026-02-04 09:51:56,573 - INFO - Processing Customization: egg | Qty: 5
+2026-02-04 09:51:56,574 - INFO - → Deducting 4965.00 of Raw Eggs (raw) for egg.
+2026-02-04 09:51:56,574 - INFO - → Deducting 3535.00 of Raw Spagghetti (raw) for egg.
+2026-02-04 09:51:56,574 - INFO - ✅ Inventory deduction completed for Sale ID: 81
+2026-02-04 09:51:56,575 - INFO - Order 81 marked as completed successfully
+2026-02-04 09:52:18,235 - INFO - Starting inventory deduction for Sale ID: 82
+2026-02-04 09:52:18,238 - INFO - Processing Product: Waakye Customizable | Qty: 1
+2026-02-04 09:52:18,241 - INFO - → Deducting 2.50 of Raw Rice (raw) for Waakye Customizable.
+2026-02-04 09:52:18,241 - INFO - ✅ Inventory deduction completed for Sale ID: 82
+2026-02-04 09:52:18,242 - INFO - Order 82 marked as completed successfully
+2026-02-06 09:36:11,758 - INFO - Order 18 marked as CANCELLED.
+2026-02-06 09:36:30,738 - INFO - Order 82 marked as CANCELLED.
+2026-02-06 10:32:55,583 - INFO - Order 81 marked as CANCELLED.
+2026-02-06 11:00:17,673 - INFO - Order 81 moved back to INQUEUE and unassigned.
+2026-02-06 11:00:25,435 - INFO - Starting inventory deduction for Sale ID: 81
+2026-02-06 11:00:25,439 - INFO - Processing Product: Waakye Customizable | Qty: 4
+2026-02-06 11:00:25,442 - INFO - → Deducting 10.00 of Raw Rice (raw) for Waakye Customizable.
+2026-02-06 11:00:25,442 - INFO - Processing Product: Waakye Customizable | Qty: 4
+2026-02-06 11:00:25,444 - INFO - → Deducting 10.00 of Raw Rice (raw) for Waakye Customizable.
+2026-02-06 11:00:25,444 - INFO - Processing Product: Jollof | Qty: 1
+2026-02-06 11:00:25,446 - INFO - Processing Customization: egg | Qty: 5
+2026-02-06 11:00:25,447 - INFO - → Deducting 4965.00 of Raw Eggs (raw) for egg.
+2026-02-06 11:00:25,448 - INFO - → Deducting 3535.00 of Raw Spagghetti (raw) for egg.
+2026-02-06 11:00:25,448 - INFO - Processing Product: Jollof | Qty: 1
+2026-02-06 11:00:25,449 - INFO - Processing Customization: egg | Qty: 5
+2026-02-06 11:00:25,450 - INFO - → Deducting 4965.00 of Raw Eggs (raw) for egg.
+2026-02-06 11:00:25,451 - INFO - → Deducting 3535.00 of Raw Spagghetti (raw) for egg.
+2026-02-06 11:00:25,451 - INFO - ✅ Inventory deduction completed for Sale ID: 81
+2026-02-06 11:00:25,451 - INFO - Order 81 marked as completed successfully
+2026-02-06 11:00:28,553 - INFO - Order 81 moved back to INQUEUE and unassigned.
+2026-02-06 11:00:32,921 - INFO - Order 81 marked as CANCELLED.
+2026-02-23 03:03:01,075 - ERROR - CRITICAL: Branch updated but main store deduction failed for RawItem 1. Quantity: 20000. Error: Cannot assign "<MainStoreRawItems: Chicken>": "StockAdjustment.raw_item" must be a "RawItems" instance.
+2026-02-26 12:19:04,817 - INFO - Branch URL received: 165.227.130.82:8000
+2026-02-26 12:19:04,818 - INFO - Constructed branch check URL: http://165.227.130.82:8000/inventory/getcorrespondingbranchrawitemid/Rice(Raw)/
+2026-02-26 12:25:08,008 - INFO - Branch URL received: 165.227.130.82:8000
+2026-02-26 12:25:08,008 - INFO - Constructed branch check URL: http://165.227.130.82:8000/inventory/getcorrespondingbranchrawitemid/RawSugar/
+2026-02-26 12:30:29,709 - INFO - Branch URL received: 165.227.130.82:8000
+2026-02-26 12:30:29,709 - INFO - Constructed branch check URL: http://165.227.130.82:8000/inventory/getcorrespondingbranchrawitemid/RawSugar/
+2026-02-26 13:00:43,083 - INFO - Branch URL received: localhost:8000
+2026-02-26 13:00:43,085 - INFO - Constructed branch check URL: http://localhost:8000/inventory/getcorrespondingbranchrawitemid/RiceBag/
+2026-02-26 13:26:58,867 - INFO - Starting inventory deduction for Sale ID: 1
+2026-02-26 13:26:58,871 - INFO - Processing Customization: Chicken | Qty: 2
+2026-02-26 13:26:58,871 - INFO - Processing Product: Waakye Customizable | Qty: 15
+2026-02-26 13:26:58,871 - INFO - ✅ Inventory deduction completed for Sale ID: 1
+2026-02-26 13:27:25,496 - INFO - Starting inventory deduction for Sale ID: 2
+2026-02-26 13:27:25,499 - INFO - Processing Customization: Chicken | Qty: 1
+2026-02-26 13:27:25,499 - INFO - Processing Product: Waakye Customizable | Qty: 25
+2026-02-26 13:27:25,499 - INFO - ✅ Inventory deduction completed for Sale ID: 2
+2026-02-26 13:37:56,204 - INFO - Starting inventory deduction for Sale ID: 3
+2026-02-26 13:37:56,210 - INFO - Processing Customization: Chicken | Qty: 1
+2026-02-26 13:37:56,210 - INFO - Processing Product: Waakye Customizable | Qty: 25
+2026-02-26 13:37:56,212 - INFO - ✅ Inventory deduction completed for Sale ID: 3
+2026-02-26 13:37:56,216 - INFO - Order 3 marked as completed successfully
+2026-02-26 13:40:44,427 - INFO - Starting inventory deduction for Sale ID: 4
+2026-02-26 13:40:44,432 - INFO - Processing Customization: Chicken | Qty: 7
+2026-02-26 13:40:44,433 - INFO - Processing Product: Waakye Customizable | Qty: 56
+2026-02-26 13:40:44,433 - INFO - ✅ Inventory deduction completed for Sale ID: 4
+2026-02-26 13:40:44,435 - INFO - Order 4 marked as completed successfully
+2026-02-28 11:26:28,473 - INFO - Branch URL received: tekcreditapi.frontline-management.ngrok.pizza
+2026-02-28 11:26:28,475 - INFO - Constructed branch check URL: http://tekcreditapi.frontline-management.ngrok.pizza/inventory/getcorrespondingbranchrawitemid/Waakye Customizable/
+2026-02-28 14:33:10,786 - INFO - Branch URL received: accuziapi.frontline-management.ngrok.pizza
+2026-02-28 14:33:10,788 - INFO - Constructed branch check URL: http://accuziapi.frontline-management.ngrok.pizza/inventory/getcorrespondingbranchrawitemid/Waakye Customizable/
+2026-03-02 03:15:43,437 - INFO - Branch URL received: api.frontline-management.ngrok.pizza
+2026-03-02 03:15:43,439 - INFO - Constructed branch check URL: http://api.frontline-management.ngrok.pizza/inventory/getcorrespondingbranchrawitemid/Waakye Customizable/
+2026-03-02 03:43:34,652 - INFO - Branch URL received: accuziapi.frontline-management.ngrok.pizza
+2026-03-02 03:43:34,655 - INFO - Constructed branch check URL: http://accuziapi.frontline-management.ngrok.pizza/inventory/getcorrespondingbranchrawitemid/Waakye Customizable/
+2026-03-02 03:45:24,214 - INFO - Branch URL received: accuziapi.frontline-management.ngrok.pizza
+2026-03-02 03:45:24,215 - INFO - Constructed branch check URL: http://accuziapi.frontline-management.ngrok.pizza/inventory/getcorrespondingbranchrawitemid/Waakye Customizable/
+2026-03-02 03:47:29,005 - INFO - Branch URL received: api.frontline-management.ngrok.pizza
+2026-03-02 03:47:29,006 - INFO - Constructed branch check URL: http://api.frontline-management.ngrok.pizza/inventory/getcorrespondingbranchrawitemid/Waakye Customizable/
+2026-03-02 03:52:56,197 - INFO - Branch URL received: accuziapi.frontline-management.ngrok.pizza
+2026-03-02 03:52:56,198 - INFO - Constructed branch check URL: http://accuziapi.frontline-management.ngrok.pizza/inventory/getcorrespondingbranchrawitemid/Waakye Customizable/
+2026-03-02 04:01:38,738 - INFO - Branch URL received: tekcreditapi.frontline-management.ngrok.pizza
+2026-03-02 04:01:38,740 - INFO - Constructed branch check URL: http://tekcreditapi.frontline-management.ngrok.pizza/inventory/getcorrespondingbranchrawitemid/Waakye Customizable/
+2026-03-02 04:17:48,652 - INFO - Branch URL received: api.frontline-management.ngrok.pizza
+2026-03-02 04:17:48,654 - INFO - Constructed branch check URL: http://api.frontline-management.ngrok.pizza/inventory/getcorrespondingbranchrawitemid/Waakye Customizable/
+2026-03-02 04:22:55,681 - INFO - Branch URL received: api.frontline-management.ngrok.pizza
+2026-03-02 04:22:55,682 - INFO - Constructed branch check URL: http://api.frontline-management.ngrok.pizza/inventory/getcorrespondingbranchrawitemid/Waakye Customizable/
+2026-03-02 04:25:04,715 - INFO - Branch URL received: tekcreditapi.frontline-management.ngrok.pizza
+2026-03-02 04:25:04,717 - INFO - Constructed branch check URL: http://tekcreditapi.frontline-management.ngrok.pizza/inventory/getcorrespondingbranchrawitemid/Waakye Customizable/
+2026-03-02 04:34:47,095 - INFO - Branch URL received: api.frontline-management.ngrok.pizza
+2026-03-02 04:34:47,097 - INFO - Constructed branch check URL: http://api.frontline-management.ngrok.pizza/inventory/getcorrespondingbranchrawitemid/Waakye Customizable/
+2026-03-02 04:35:27,528 - INFO - Branch URL received: tekcreditapi.frontline-management.ngrok.pizza
+2026-03-02 04:35:27,529 - INFO - Constructed branch check URL: http://tekcreditapi.frontline-management.ngrok.pizza/inventory/getcorrespondingbranchrawitemid/Waakye Customizable/
+2026-03-02 05:03:54,660 - INFO - Branch URL received: api.frontline-management.ngrok.pizza
+2026-03-02 05:04:16,282 - INFO - Branch URL received: api.frontline-management.ngrok.pizza
+2026-03-02 05:11:17,174 - INFO - Branch URL received: api.frontline-management.ngrok.pizza
+2026-03-02 05:18:01,261 - INFO - Branch URL received: api.frontline-management.ngrok.pizza
+2026-03-02 05:20:15,881 - INFO - Branch URL received: api.frontline-management.ngrok.pizza
+2026-03-02 05:20:45,836 - INFO - Branch URL received: api.frontline-management.ngrok.pizza
+2026-03-02 05:21:10,728 - INFO - Branch URL received: api.frontline-management.ngrok.pizza
+2026-03-02 05:21:29,398 - INFO - Branch URL received: tekcreditapi.frontline-management.ngrok.pizza
+2026-03-02 05:21:29,398 - INFO - Constructed branch check URL: http://tekcreditapi.frontline-management.ngrok.pizza/inventory/getcorrespondingbranchrawitemid/Waakye Customizable/
+2026-03-02 05:40:30,569 - INFO - Branch URL received: api.frontline-management.ngrok.pizza
+2026-03-02 05:45:14,263 - INFO - Branch URL received: tekcreditapi.frontline-management.ngrok.pizza
+2026-03-02 05:45:14,263 - INFO - Constructed branch check URL: http://tekcreditapi.frontline-management.ngrok.pizza/inventory/getcorrespondingbranchrawitemid/Salad/
+2026-03-02 05:57:25,500 - INFO - Branch URL received: api.frontline-management.ngrok.pizza
+2026-03-02 06:12:38,446 - INFO - Branch URL received: api.frontline-management.ngrok.pizza
+2026-03-02 06:13:19,145 - INFO - Branch URL received: tekcreditapi.frontline-management.ngrok.pizza
+2026-03-02 06:13:19,146 - INFO - Constructed branch check URL: http://tekcreditapi.frontline-management.ngrok.pizza/inventory/getcorrespondingbranchrawitemid/Akpepe/

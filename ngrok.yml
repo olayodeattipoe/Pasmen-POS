@@ -1,0 +1,17 @@
+version: 3
+
+agent:
+  authtoken: "#pass your ngrok auth token"
+
+tunnels:
+
+  backend:
+    proto: http
+    addr: web:8000
+    domain: api.frontline-management.ngrok.pizza
+
+  management:
+    proto: http
+    addr: managemnetapp:80
+    domain: management.frontline-management.ngrok.pizza
+
