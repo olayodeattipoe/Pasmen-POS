@@ -31,32 +31,32 @@ Watch the full system breakdown and demo on YouTube:
 [![Watch the full walkthrough](https://img.youtube.com/vi/IBhFM26pGS8/maxresdefault.jpg)](https://www.youtube.com/watch?v=IBhFM26pGS8)
 
 **Timestamps:**
-- 0:00 Introduction
-- 1:17 Pain points
-- 1:49 Cashier role overview
-- 3:00 Dashboard walkthrough
-- 3:30 Raw items setup
-- 4:30 Stock management
-- 6:00 Wastage & adjustments
-- 7:00 Low-stock alerts
-- 8:00 Production / recipes
-- 11:00 Menu & dish setup
-- 13:00 Recipes to dishes
-- 15:00 Pricing & variations
-- 17:00 Customizations / options
-- 19:00 Linking dishes to options
-- 20:00 User & role management
-- 21:30 Branch management
-- 22:30 Suppliers & purchases
-- 26:00 POS order flow (cashier)
-- 28:00 Order editing & status
-- 29:30 Checkout & payment
-- 31:00 Kitchen cook log
-- 33:00 Inventory deduction
-- 35:00 Analytics & reporting
-- 37:00 Alerts & notifications
-- 38:30 Mobile responsiveness
-- 38:54 Wrap-up
+- [0:00](https://www.youtube.com/watch?v=IBhFM26pGS8&t=0s) Introduction
+- [1:17](https://www.youtube.com/watch?v=IBhFM26pGS8&t=77s) Pain points
+- [1:49](https://www.youtube.com/watch?v=IBhFM26pGS8&t=109s) Cashier role overview
+- [3:00](https://www.youtube.com/watch?v=IBhFM26pGS8&t=180s) Dashboard walkthrough
+- [3:30](https://www.youtube.com/watch?v=IBhFM26pGS8&t=210s) Raw items setup
+- [4:30](https://www.youtube.com/watch?v=IBhFM26pGS8&t=270s) Stock management
+- [6:00](https://www.youtube.com/watch?v=IBhFM26pGS8&t=360s) Wastage & adjustments
+- [7:00](https://www.youtube.com/watch?v=IBhFM26pGS8&t=420s) Low-stock alerts
+- [8:00](https://www.youtube.com/watch?v=IBhFM26pGS8&t=480s) Production / recipes
+- [11:00](https://www.youtube.com/watch?v=IBhFM26pGS8&t=660s) Menu & dish setup
+- [13:00](https://www.youtube.com/watch?v=IBhFM26pGS8&t=780s) Recipes to dishes
+- [15:00](https://www.youtube.com/watch?v=IBhFM26pGS8&t=900s) Pricing & variations
+- [17:00](https://www.youtube.com/watch?v=IBhFM26pGS8&t=1020s) Customizations / options
+- [19:00](https://www.youtube.com/watch?v=IBhFM26pGS8&t=1140s) Linking dishes to options
+- [20:00](https://www.youtube.com/watch?v=IBhFM26pGS8&t=1200s) User & role management
+- [21:30](https://www.youtube.com/watch?v=IBhFM26pGS8&t=1290s) Branch management
+- [22:30](https://www.youtube.com/watch?v=IBhFM26pGS8&t=1350s) Suppliers & purchases
+- [26:00](https://www.youtube.com/watch?v=IBhFM26pGS8&t=1560s) POS order flow (cashier)
+- [28:00](https://www.youtube.com/watch?v=IBhFM26pGS8&t=1680s) Order editing & status
+- [29:30](https://www.youtube.com/watch?v=IBhFM26pGS8&t=1770s) Checkout & payment
+- [31:00](https://www.youtube.com/watch?v=IBhFM26pGS8&t=1860s) Kitchen cook log
+- [33:00](https://www.youtube.com/watch?v=IBhFM26pGS8&t=1980s) Inventory deduction
+- [35:00](https://www.youtube.com/watch?v=IBhFM26pGS8&t=2100s) Analytics & reporting
+- [37:00](https://www.youtube.com/watch?v=IBhFM26pGS8&t=2220s) Alerts & notifications
+- [38:30](https://www.youtube.com/watch?v=IBhFM26pGS8&t=2310s) Mobile responsiveness
+- [38:54](https://www.youtube.com/watch?v=IBhFM26pGS8&t=2334s) Wrap-up
 
 ### 🧾 Hardware Integration: Thermal Printing & Dual-Receipt Flow
 The system natively supports thermal receipt printing at checkout. It automatically generates a kitchen ticket and a customer copy for order verification.
